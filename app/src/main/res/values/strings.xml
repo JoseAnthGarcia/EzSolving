@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ezSolving</string>
+    <string name="home_description">Go to home</string>
+    <string name="post_description">New Post</string>
+    <string name="profile_description">Go to profile</string>
+    <string name="notification_description">See notifications</string>
+    <string name="buscar">Buscar categoria</string>
+    <string name="post_content_1"> ¿Tengo una pregunta? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="subir">Subir</string>
+    <string name="titulo">Hacer una pregunta</string>
+    <string name="usuario">Blanca Cenicienta</string>
+    <string name="text">Ingrese su pregunta, puede adjuntar una imagen...</string>
+    <string name="publicacion">Publicado Vie. 25 oct.</string>
+    <string name="textoDentroDeLaPublicacion">¿Esta solución es correcta?</string>
+    <string name="sinComent">Aún no hay comentarios...</string>
+    <string name="comentar">Comentar...</string>
+</resources>
