@@ -5,7 +5,6 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.view.WindowManager
 import pe.edu.pucp.ezsolving.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
