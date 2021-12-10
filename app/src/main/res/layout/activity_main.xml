@@ -8,6 +8,20 @@
     tools:context=".MainActivity">
 
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bt_ft_publicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="#FDEB4E"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@mipmap/ic_plus_foreground" />
+
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="398dp"

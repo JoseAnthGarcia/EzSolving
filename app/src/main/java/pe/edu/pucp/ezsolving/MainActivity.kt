@@ -1,20 +1,28 @@
 package pe.edu.pucp.ezsolving
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
+import pe.edu.pucp.ezsolving.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // Hide the status bar.
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
-        // Remember that you should never show the action bar if the
-        // status bar is hidden, so hide that too if necessary.
         actionBar?.hide()
 
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.btFtPublicar.setOnClickListener {
+            val intentPublic = Intent(this, ComentarioPublicacinActivity::class.java)
+            startActivity(intentPublic)
+        }
     }
 }
