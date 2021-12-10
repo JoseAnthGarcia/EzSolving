@@ -26,15 +26,6 @@
             android:value="true" />
 
         <activity
-            android:name=".ComentarioPublicacionActivity"
-            android:label="@string/title_activity_comentario_publicacion">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".FinalPublicacionActivity"
             android:exported="false" />
         <activity
