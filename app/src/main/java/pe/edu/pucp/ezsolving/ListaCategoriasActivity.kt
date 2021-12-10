@@ -1,6 +1,7 @@
 package pe.edu.pucp.ezsolving
 
 import android.R
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -48,6 +49,11 @@ class ListaCategoriasActivity : AppCompatActivity() {
 
 
         })
+
+        binding.button.setOnClickListener{
+            val intentPublic = Intent(this, FinalPublicacionActivity::class.java)
+            startActivity(intentPublic)
+        }
 
     }
 }

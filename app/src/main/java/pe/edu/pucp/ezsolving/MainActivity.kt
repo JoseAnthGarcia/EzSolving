@@ -20,8 +20,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btFtPublicar.setOnClickListener {
-            val intentPublic = Intent(this, ComentarioPublicacinActivity::class.java)
+            val intentPublic = Intent(this, EmpezarPublicacionActivity::class.java)
             startActivity(intentPublic)
+        }
+
+        binding.btPublish.setOnClickListener{
+            val intentPublic = Intent(this, EmpezarPublicacionActivity::class.java)
+            startActivity(intentPublic)
+        }
+
+        binding.btCmt1.setOnClickListener{
+            val intentContent = Intent(this, ComentarioPublicacinActivity::class.java)
+            startActivity(intentContent)
         }
     }
 }
