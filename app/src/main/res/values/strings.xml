@@ -14,4 +14,25 @@
     <string name="textoDentroDeLaPublicacion">¿Esta solución es correcta?</string>
     <string name="sinComent">Aún no hay comentarios...</string>
     <string name="comentar">Comentar...</string>
+    <string name="title_activity_comentario_publicacion">ComentarioPublicacionActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+
+    <string name="hector_ventura">Hector Ventura</string>
+    <string name="publicado_el" />
+    <string name="publicado">Publicado</string>
+    <string name="publicado_vie_24_oct">Publicado Vie. 24 oct.</string>
+    <string name="todo">TODO</string>
+    <string name="esta_soluci_n_es_correcta">¿Esta solución es correcta?</string>
+    <string name="publi">PUBLICACION</string>
+    <string name="publicaci_n">Publicación</string>
+    <string name="_100">100</string>
+    <string name="_15">15</string>
+    <string name="comentar1">Comentar...</string>
+    <string name="joham_romucho">Joham Romucho</string>
+    <string name="usuario_2">Usuario 2</string>
+    <string name="esto_es_un_comentario_esto_es_un_comentario_esto_es_un_comentario_esto_es_un_comentario_esto_es_un_comentario">Esto es un comentario. Esto es un comentario. Esto es un comentario. Esto es un comentario. Esto es un comentario.</string>
+    <string name="hello_world">Hello Square World!</string>
 </resources>
