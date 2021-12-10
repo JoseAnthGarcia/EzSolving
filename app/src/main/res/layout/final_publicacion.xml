@@ -70,7 +70,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/campos" />
+        app:srcCompat="@drawable/campos2" />
 
     <ImageView
         android:id="@+id/img_user_1"
@@ -176,8 +176,11 @@
         android:id="@+id/constraintLayout3"
         android:layout_width="match_parent"
         android:layout_height="54dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="548dp">
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <ImageButton
             android:id="@+id/bt_home"

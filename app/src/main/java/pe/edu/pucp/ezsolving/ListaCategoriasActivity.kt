@@ -21,8 +21,8 @@ class ListaCategoriasActivity : AppCompatActivity() {
         actionBar?.hide()
         setContentView(binding.root)
 
-        val user = arrayOf("Abhay","Joseph","Maria","Avni","Apoorva","Chris","David","Kaira","Dwayne","Christopher",
-            "Jim","Russel","Donald","Brack","Vladimir")
+        val user = arrayOf("Algebra","Trigonometría","Circuitos eléctricos", "Com1","Com2","Campos Electromágneticos","Fund. Física","Mecánica","Estática",
+        "Ing. de Redes Inalámbricas","Series y Transformadas","Ing. de Tráfico","SDN","Probabilidades","Cálculo Multivariable")
 
         val userAdapter : ArrayAdapter<String> = ArrayAdapter(
             this, R.layout.simple_list_item_1,
