@@ -3,6 +3,7 @@ package pe.edu.pucp.ezsolving
 import android.R
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.SearchView
 import pe.edu.pucp.ezsolving.databinding.ListaCategoriasBinding.inflate
@@ -15,6 +16,8 @@ class ListaCategoriasActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = inflate(layoutInflater)
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+        actionBar?.hide()
         setContentView(binding.root)
 
         val user = arrayOf("Abhay","Joseph","Maria","Avni","Apoorva","Chris","David","Kaira","Dwayne","Christopher",
